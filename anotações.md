@@ -76,30 +76,9 @@ Baixar e hospedar os arquivos localmente (Bootstrap, jQuery, Font Awesome, Owl C
 
 ---
 
-Aqui estão as anotações atualizadas, incluindo o conteúdo sobre Gulp e Webpack:
+## Automatizar a Copia de Arquivos (Opcional)
 
----
-
-# Anotações
-
-### Vantagens do uso de CDN:
-- **Carregamento Rápido:** Arquivos hospedados em uma CDN são distribuídos por servidores globais, permitindo que sejam carregados de um servidor mais próximo ao usuário, melhorando a velocidade de carregamento.
-- **Cache:** Navegadores podem já ter essas bibliotecas armazenadas em cache, acelerando o tempo de carregamento de páginas.
-- **Reduz o Tamanho do Servidor:** Como os arquivos estão em servidores de terceiros, economiza-se espaço no servidor próprio.
-- **Atualizações Automáticas:** CDNs frequentemente atualizam bibliotecas para versões mais recentes automaticamente.
-
-### Desvantagens do uso de CDN:
-- **Dependência Externa:** A disponibilidade dos recursos depende da estabilidade de servidores de terceiros.
-- **Privacidade e Conformidade:** O uso de CDN pode levantar questões de conformidade e privacidade, já que os recursos vêm de servidores externos.
-- **Velocidade Inconsistente:** A performance pode variar conforme a região geográfica do usuário e a infraestrutura da CDN.
-- **Limitações em Personalização:** Bibliotecas por CDN não permitem modificações diretas.
-- **Controle de Versão:** Atualizações automáticas da CDN podem causar quebras de compatibilidade.
-
-### Alternativa: Hospedar Localmente
-- **Hospedagem Local:** Baixar as bibliotecas e hospedar no próprio servidor dá controle total sobre as versões usadas, além de evitar dependência de terceiros.
-- **Manutenção Manual:** É necessário gerenciar manualmente as atualizações e garantir que não haja conflitos de versões.
-  
-Para projetos de pequeno a médio porte, o uso de CDN pode ser prático e eficiente. Se o site for voltado a uma audiência local, a hospedagem local pode garantir maior estabilidade e controle.
+Para facilitar futuras atualizações ou novos projetos, você pode automatizar o processo de cópia dos arquivos usando scripts no package.json ou utilizando ferramentas como Gulp ou Webpack.
 
 ---
 
