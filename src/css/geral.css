@@ -34,7 +34,8 @@ body {
     font-size: 1.6rem; /* 16px */
 }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Merriweather", sans-serif; }
+h1, h2, h3, h4, h6 { font-family: "Merriweather", sans-serif; }
+h5 { font-family: "Pompiere", sans-serif;}
 
 /* Classes de Margem (margin) */
 .m-5    { margin: 5px; }
