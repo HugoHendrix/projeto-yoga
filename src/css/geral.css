@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pompiere&display=swap');
 
 :root {
     
@@ -10,10 +10,11 @@
     --description: #AEA17E;  /* Destaques */
 
     /* Backgrounds */
-    --bgTema: #FFFEF7; /* Definido no Body */
+    --bgTema: #FEFDFB; /* Definido no Body */
     --bgTema2: #F2EEEB;
     --bgTema3: #3B4334;
-}
+
+    }
 
 /* Configurações gerais */
 * {
@@ -33,7 +34,7 @@ body {
     font-size: 1.6rem; /* 16px */
 }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Pompiere", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Merriweather", sans-serif; }
 
 /* Classes de Margem (margin) */
 .m-5    { margin: 5px; }
@@ -315,6 +316,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Pompiere", sans-serif; }
 .bg-white   { background-color: #fff; }
 .bg-black   { background-color: #000; }
 .bg-gray    { background-color: #f8f9fa; }
+.bg-theme   { background-color: var(--fTema);}
 
 
 /* Links */
