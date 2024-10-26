@@ -3,10 +3,10 @@
 .header-links { display: flex; justify-content: space-between;  gap: 60px; list-style: none;}
 
 .main-title { margin-block: 30px; font-size: 16rem; text-transform: uppercase; text-indent: 80px; letter-spacing: -10px; color: var(--title); position: absolute; z-index: 10; }
-.main-woman { width: 900px; max-width: 900px; border-radius: 10%; }
+.main-woman { width: 900px; max-width: 900px; border-radius: 2%; }
 .main-flor { position: absolute; top: 250px; left: 5px; z-index: 5; opacity: .35; }
 
-.beneficios { padding-block: 50px; }
+.beneficios { padding-block: 30px; }
 .beneficios h5 { margin-bottom: 15px; font-size: 2.8rem; letter-spacing: 2px; color: var(--title);}
 .beneficios p { margin-bottom: 10px; font-size: 1.4rem; letter-spacing: 1px; line-height: 1.6; width: 28ch; }
 .beneficios-flor { position: absolute; top: 720px; right: 0; opacity: .35; z-index: 8; }
@@ -14,5 +14,19 @@
 .hexagon { width: 100%; max-width: 500px; clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%); overflow: hidden; }
 .hexagon img { width: 100%; height: auto; display: block; }
 .sobre-section {  padding: 50px 0; }
-.sobre-section h2 { font-size: 2.8em; margin-bottom: 20px; font-family: "Pompiere", sans-serif; }
-.sobre-section p { font-size: 1.1em; color: #555; font-weight: 300; }
+.sobre-section h2 { margin-bottom: 20px; font-family: "Pompiere", sans-serif; font-size: 4.8rem;  }
+.sobre-section p { margin-bottom: 20px; font-size: 1.1em; color: #555; font-weight: 300; }
+
+.galeria { padding-block: 20px; }
+.galeria h4 { margin-bottom: 15px; font-family:"Pompiere", sans-serif; font-size: 5.8rem; font-weight: 300; }
+
+.aulas { padding-block: 30px; background-color: #f0ebdd88; position: relative; }
+.aulas h2 { font-family: "Pompiere", sans-serif; font-size: 4.8rem;}
+.aulas h5 { font-family: "Pompiere", sans-serif; font-size: 2.8rem; color: var(--title);}
+.aulas-card { border: none; border-radius: 6px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+.aulas-card:hover {transform: scale(1.03); }
+.aulas-card-body { padding: 20px; text-align: center; }
+.aulas-card-body h5 { margin-top: 10px; color: #333; }
+.aulas-card-body p { color: #555; }
+.aulas-flor { width: 100%; max-width: 550px; position: absolute; top: 30px; right: 0; z-index: -1; }
+

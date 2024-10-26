@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pompiere&display=swap');
 
 :root {
     
@@ -34,7 +34,7 @@ body {
     font-size: 1.6rem; /* 16px */
 }
 
-h1, h2, h3, h4, h6 { font-family: "Merriweather", sans-serif; }
+h1, h2, h3, h4, h6 { font-family: "Bellota", sans-serif; }
 h5 { font-family: "Pompiere", sans-serif;}
 
 /* Classes de Margem (margin) */
@@ -319,6 +319,7 @@ h5 { font-family: "Pompiere", sans-serif;}
 .bg-gray    { background-color: #f8f9fa; }
 .bg-theme   { background-color: var(--fTema);}
 
+.icones { display: flex; width: 100%; max-width: 18px;}
 
 /* Links */
 a {
