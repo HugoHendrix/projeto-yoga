@@ -13,7 +13,7 @@
 
 .hexagon { width: 100%; max-width: 500px; clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%); overflow: hidden; }
 .hexagon img { width: 100%; height: auto; display: block; }
-.sobre-section {  padding: 50px 0; }
+.sobre-section {  padding: 50px 10px; }
 .sobre-section h2 { margin-bottom: 20px; font-family: "Pompiere", sans-serif; font-size: 4.8rem;  }
 .sobre-section p { margin-bottom: 20px; font-size: 1.1em; color: #555; font-weight: 300; }
 
@@ -21,6 +21,7 @@
 .galeria h4 { margin-bottom: 15px; font-family:"Pompiere", sans-serif; font-size: 5.8rem; font-weight: 300; }
 
 .aulas { padding-block: 30px; background-color: #f0ebdd88; position: relative; }
+.aulas-logo { margin-bottom: 30px; width: 100%; max-width: 400px;}
 .aulas h2 { font-family: "Pompiere", sans-serif; font-size: 4.8rem;}
 .aulas h5 { font-family: "Pompiere", sans-serif; font-size: 2.8rem; color: var(--title);}
 .aulas-card { border: none; border-radius: 6px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }

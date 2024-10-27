@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="container-fluid w-100 pt-30">
+    <header class="container-fluid w-100 pt-30 menuDesktop">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -39,6 +39,33 @@
         </div>
     </header>
 
+    <div class="container full menuMobileContainer">
+        <div class="container">
+            <div class="row ptb20">
+                <div class="col-xs-6 menuMobileLogo df aiCenter jcCenter">
+                    <a href="#">
+                        <img class="logoMenu" src="img/layout/logo.jpg" alt="">
+                    </a>
+                </div>
+                    <div class="menuMobileToggle col-xs-6 df jcEnd aiCenter">
+                        <button class="mobile-menu-toggle"><img src="img/layout/hamburger-menu.svg"></button>
+                    <div class="mobile-menu">
+                        <a class="mobile-menu-close">➜</a>
+                        <div class="MobileMenuTitulo">
+                            <h3 class="txtCenter">Menu</h3>
+                        </div>
+                        <ul class="MenuMobileList">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Sobre Nós</a></li>
+                            <li><a href="#">Serviços</a></li>                                                
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <main class="container-fluid w-100 mb-50" id="inicio">
         <div class="container">
             <div class="row">
@@ -56,7 +83,7 @@
         </div>
     </main>
 
-    <section class="container beneficios">
+    <section class="container beneficios p-10">
         <div class="row">
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="3000">
                 <h5>Equilíbrio entre Corpo e Mente</h5>
@@ -118,7 +145,7 @@
 
     <section class="section container-fluid w-100 aulas" id="aulas">
         <div class="container my-5 ">
-            <img src="src/img/svg/logo-yoga.svg">
+            <img src="src/img/svg/logo-yoga.svg" class="aulas-logo" data-brand>
             <h2 class="text-center mb-4">Aulas Disponíveis </h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
