@@ -6,10 +6,10 @@
 .main-woman { width: 900px; max-width: 900px; border-radius: 2%; }
 .main-flor { position: absolute; top: 250px; left: 5px; z-index: 5; opacity: .35; }
 
-.beneficios { padding-block: 30px; }
+.beneficios { padding-block: 30px; position: relative; }
 .beneficios h5 { margin-bottom: 15px; font-size: 2.8rem; letter-spacing: 2px; color: var(--title);}
 .beneficios p { margin-bottom: 10px; font-size: 1.4rem; letter-spacing: 1px; line-height: 1.6; width: 28ch; }
-.beneficios-flor { position: absolute; top: 720px; right: 0; opacity: .35; z-index: 8; }
+.beneficios-flor { position: absolute; top: 0px; right: -110px; opacity: .35; z-index: 8; }
 
 .hexagon { width: 100%; max-width: 500px; clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%); overflow: hidden; }
 .hexagon img { width: 100%; height: auto; display: block; }

@@ -2,16 +2,15 @@
 
 ## Referência Yoga Studio Ashtanga
 
-![Yoga Studio Ashtanga](https://ashtanga.qodeinteractive.com/)
+[Yoga Studio Ashtanga](https://ashtanga.qodeinteractive.com/)
 
 ### Cores
 
-#3E4939 - Título
-#AEA17E - Título secundário
-#FFFEF7 - Background
-#F2EEEB - Background secundário
-
-#3B4334 - Background Verde Musgo
+- #3E4939 - Título
+- #AEA17E - Título secundário
+- #FFFEF7 - Background
+- #F2EEEB - Background secundário
+- #3B4334 - Background Verde Musgo
 
 ---
 
