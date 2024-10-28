@@ -8,13 +8,6 @@ Bem-vindo ao projeto **Shanti Yoga**! Este é um site institucional dedicado a p
 
 O Shanti Yoga é um site criado com o objetivo de apresentar informações sobre a prática do yoga. Com uma identidade visual suave e relaxante. Este projeto é desenvolvido com foco em uma interface agradável, amigável e responsiva.
 
-## Funcionalidades
-
-- **Homepage com introdução ao Yoga**: Visão geral da filosofia e práticas.
-- **Seção de Instrutores**: Perfil dos instrutores e suas especializações.
-- **Calendário de Aulas**: Informações sobre horários e disponibilidade.
-- **Blog**: Publicação de artigos e dicas sobre saúde e bem-estar.
-- **Contato**: Formulário de contato para interessados em mais informações.
 
 ## Tecnologias Utilizadas
 
