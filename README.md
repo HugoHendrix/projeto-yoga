@@ -1,4 +1,4 @@
-![alt text](yoga.png)
+![alt text](yoga.webp)
 
 # Shanti Yoga
 

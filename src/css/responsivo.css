@@ -67,3 +67,6 @@
     /* Estilos para grandes monitores */
     .beneficios-flor { position: absolute; top: 0px; right: -145px; opacity: .35; z-index: 8; }
 } 
+
+/* reserva o espaço das imagens (width e height) sem distorcer */
+:where(img[height]) { height: auto; }
